@@ -5,7 +5,7 @@ from sys import argv
 from typing import Optional
 from pyrogram import filters, idle
 
-from EzilaXBot import (
+from ashxserena_bot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -26,10 +26,10 @@ from EzilaXBot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from EzilaXBot.modules import ALL_MODULES
-from EzilaXBot.modules.helper_funcs.chat_status import is_user_admin
-from EzilaXBot.modules.helper_funcs.misc import paginate_modules
-from EzilaXBot.modules.sudoers import bot_sys_stats
+from ashxserena_bot.modules import ALL_MODULES
+from ashxserena_bot.modules.helper_funcs.chat_status import is_user_admin
+from ashxserena_bot.modules.helper_funcs.misc import paginate_modules
+from ashxserena_bot.modules.sudoers import bot_sys_stats
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
