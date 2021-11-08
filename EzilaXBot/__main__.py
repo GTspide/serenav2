@@ -76,15 +76,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-𝐇𝐞𝐥𝐥𝐨, \n 𝗜'𝗺 EzilaX
-𝗜'𝗺 𝗛𝗲𝗿𝗲 𝘁𝗼 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀! 𝗛𝗶𝘁 /help [️️ ️](https://telegra.ph/file/584b1539d736325fab377.jpg)
-Project By @Ezila_Updates ❤
+𝐇𝐞𝐥𝐥𝐨, \n 𝗜'𝗺 Serena
+𝗜'𝗺 𝗛𝗲𝗿𝗲 𝘁𝗼 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀! 𝗛𝗶𝘁 /help [️️ ️](https://telegra.ph/file/8b12b288a21f69e789627.jpg)
+Project By @serenassupport ❤
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Sophia to your Group ➕", url="t.me/EzilaXBot?startgroup=true"),
+            text="➕ Add Serena to your Group ➕", url="t.me/ashXserena_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Source Code 🗒️", callback_data="source_"),
@@ -93,9 +93,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🙋‍♀️ Sophia News", url=f"https://t.me/Ezila_Updates"),
+        InlineKeyboardButton(text="🙋‍♀️ Serena News", url=f"https://t.me/serenassupdates"),
         InlineKeyboardButton(
-            text="💬 Support Group", url=f"https://t.me/Ezila_Support"
+            text="💬 Support Group", url=f"https://t.me/seranasupdates"
         ),
     ],
     [
@@ -105,9 +105,9 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` EzilaX 
+`Hi.. I'm` Serena 
 Click On The Buttons Below To Get Documentation About Specific Modules..
-Powered by @Ezila_Updates 💓 [️️ ️](https://telegra.ph/file/584b1539d736325fab377.jpg) """
+Powered by @serenassupport 💓 [️️ ️](https://telegra.ph/file/91b6d31b1babc77dde89e.jpg) """
 
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
